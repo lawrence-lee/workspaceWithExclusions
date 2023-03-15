@@ -4,6 +4,7 @@ There are 3 different use cases we have to support. The differences lie in the s
 
 With the given exclusion (liferay.workspace.modules.excludes.dir=analytics,blogs-test,my-test-sample2,my-test-sample5), these projects should build:
 	my-test-sample4
+
 2. includesNullDir ( #liferay.workspace.modules.dir || empty gradle.properties )
 3. includesStarDir ( liferay.workspace.modules.dir=* )
 
