@@ -1,0 +1,4 @@
+Bundle-Name: my-test-project
+Bundle-SymbolicName: my.test.project
+Bundle-Version: 1.0.0
+Export-Package: my.test.project.constants

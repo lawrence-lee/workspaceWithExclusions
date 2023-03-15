@@ -1,0 +1,10 @@
+Bundle-Name: analytics-api
+Bundle-SymbolicName: analytics.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	analytics.exception,\
+	analytics.model,\
+	analytics.service,\
+	analytics.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../analytics-service/service.xml

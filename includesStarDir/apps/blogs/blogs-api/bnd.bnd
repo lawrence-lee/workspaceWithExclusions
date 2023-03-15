@@ -1,0 +1,10 @@
+Bundle-Name: blogs-api
+Bundle-SymbolicName: blogs.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	blogs.exception,\
+	blogs.model,\
+	blogs.service,\
+	blogs.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../blogs-service/service.xml

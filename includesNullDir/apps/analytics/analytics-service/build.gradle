@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:analytics:analytics-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../analytics-api/src/main/java"
+}
+
+group = "analytics"
